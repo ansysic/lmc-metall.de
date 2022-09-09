@@ -1,0 +1,20 @@
+.bg-top {
+    height: 178px;
+    background-image: url("../img/bg_top.png");
+    background-size: auto;
+    background-position:left;
+    background-repeat: repeat;
+}
+
+.row-height-178 {
+    height: 178px;
+}
+
+.nav-link {
+    /* font-size: 1.1em; */
+    /* font-weight: bold; */
+}
+
+..carousel-caption {
+    color:black;
+}
