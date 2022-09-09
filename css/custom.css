@@ -7,8 +7,24 @@
 }
 
 .bg-leistungen {
-    height: 150px;
+    height: 170px;
     background-image: url("../img/leistungen_1.png");
+    background-size: auto;
+    background-position:left;
+    background-repeat: repeat;
+}
+
+.bg-maschinen {
+    height: 170px;
+    background-image: url("../img/team_1.png");
+    background-size: auto;
+    background-position:left;
+    background-repeat: repeat;
+}
+
+.bg-kontakt {
+    height: 170px;
+    background-image: url("../img/anfrage_1.png");
     background-size: auto;
     background-position:left;
     background-repeat: repeat;
