@@ -1,5 +1,5 @@
 .bg-top {
-    height: 178px;
+    height: 150px;
     background-image: url("../img/bg_top.png");
     background-size: auto;
     background-position:left;
@@ -7,7 +7,7 @@
 }
 
 .row-height-178 {
-    height: 178px;
+    height: 150px;
 }
 
 .nav-link {
