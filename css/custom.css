@@ -15,6 +15,7 @@
     /* font-weight: bold; */
 }
 
-..carousel-caption {
+.carousel-caption {
     color:black;
+    text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
 }
