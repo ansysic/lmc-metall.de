@@ -19,3 +19,11 @@
     color:black;
     text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
 }
+
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
