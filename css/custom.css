@@ -21,6 +21,11 @@
     font-weight: bold;
 }
 
+.font-mt {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
 .bg-top {
     height: 150px;
     background-image: url("../img/bg_top.png");
