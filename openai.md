@@ -13,3 +13,7 @@ Welcome to our website! We are a small manufacturing company specializing in met
 We create metal art that lasts forever.
 The best metalworking company around!
 The metalworking company with the best prices and quality!
+
+
+
+Wir sind ein mittelständischer Betrieb spezialisiert in Metallverarbeitung. Hier finden sie eine Palette an verschiedenen Dienstleistungen rund um das Thema CNC und Metall.

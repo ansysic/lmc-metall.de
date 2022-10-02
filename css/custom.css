@@ -29,32 +29,32 @@
 .bg-top {
     height: 150px;
     background-image: url("../img/bg_top.png");
-    background-size:cover;
-    background-position:left;
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
 .bg-leistungen {
     height: 170px;
     background-image: url("../img/leistungen_1.png");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .bg-maschinen {
     height: 170px;
     background-image: url("../img/team_1.png");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .bg-kontakt {
     height: 170px;
     background-image: url("../img/anfrage_1.png");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -65,17 +65,17 @@
 .bg-image-1 {
     height: 500px;
     background-image: url("../img/slide_2.png");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .bg-gradient-1 {
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1));
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
 }
 
 .carousel-caption {
-    color:black;
+    color: black;
     text-shadow: 3px 3px px #ffffff, -3px -3px 5px #ffffff;
 }
 
@@ -83,10 +83,11 @@
     text-shadow: 1px 1px 1px #ffffff;
 }
 
-.carousel-item{
+.carousel-item {
     height: 500px;
-} 
-.carousel-item img{
+}
+
+.carousel-item img {
     height: 500px;
     object-fit: cover;
 }
@@ -96,13 +97,24 @@
 } */
 
 .h1-white {
-    color:white;
+    color: white;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 
 
@@ -110,73 +122,102 @@ a:active { text-decoration: none; }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Medium.woff2') format('woff2'),
-        url('fonts/Inter-Medium.woff') format('woff');
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Light.woff2') format('woff2'),
-        url('fonts/Inter-Light.woff') format('woff');
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-ExtraBold.woff2') format('woff2'),
-        url('fonts/Inter-ExtraBold.woff') format('woff');
+    src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff2') format('woff2'),
-        url('fonts/Inter-Bold.woff') format('woff');
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Black.woff2') format('woff2'),
-        url('fonts/Inter-Black.woff') format('woff');
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-ExtraLight.woff2') format('woff2'),
-        url('fonts/Inter-ExtraLight.woff') format('woff');
+    src: url('../fonts/Inter-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Thin.woff2') format('woff2'),
-        url('fonts/Inter-Thin.woff') format('woff');
+    src: url('../fonts/Inter-Thin.woff2') format('woff2'),
+        url('../fonts/Inter-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-Regular.woff2') format('woff2'),
-        url('fonts/Inter-Regular.woff') format('woff');
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/Inter-SemiBold.woff2') format('woff2'),
-        url('fonts/Inter-SemiBold.woff') format('woff');
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
+body {
+    font-family: 'Inter';
+    background-color: whitesmoke;
+}
+
+.font-inter {
+    font-weight: bold;
+}
+
+.lmc-background-gradient {
+    background: rgb(51, 80, 133);
+    background: linear-gradient(90deg, rgba(51, 80, 133, 1) 0%, rgba(216, 221, 239, 1) 94%);
+}
+
+.height-medium {
+    height: 250px;
+}
+
+.font-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+}
+
+.lmc-color {
+    color: #335085;
+    line-height: 1.3;
+}
