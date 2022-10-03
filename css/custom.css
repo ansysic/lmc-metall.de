@@ -194,7 +194,7 @@ a:active {
 
 body {
     font-family: 'Inter';
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 .font-inter {
@@ -221,3 +221,12 @@ body {
     color: #335085;
     line-height: 1.3;
 }
+
+.blur-10 {
+    backdrop-filter: blur(10px);
+}
+
+.bg-light.opac {
+    --bs-bg-opacity: 0.1;
+}
+
