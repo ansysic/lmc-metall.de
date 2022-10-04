@@ -218,16 +218,19 @@ body {
 }
 
 .lmc-bg-color-1 {
-    background-color: var(--lmc-color);
+    background:rgba(0, 0, 0, 0.9);
+    /* background-color: var(--lmc-color); */
 }
 
 .lmc-bg-color-2 {
-    background: rgba(51, 80, 133, 0.92);
+    background:rgba(0, 0, 0, 0.9);
+    /* background: rgba(51, 80, 133, 0.92); */
 
 }
 
 .lmc-bg-color-3 {
-    background: rgba(51, 80, 133, 0.85);
+    background:rgba(0, 0, 0, 0.9);
+    /* background: rgba(51, 80, 133, 0.85); */
 
 }
 
@@ -279,5 +282,5 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: medium;
-    color: #ccaf7a
+    /* color: #ccaf7a */
 }
