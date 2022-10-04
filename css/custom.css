@@ -218,24 +218,23 @@ body {
 }
 
 .lmc-bg-color-1 {
-    background:rgba(0, 0, 0, 0.9);
+    background: white
     /* background-color: var(--lmc-color); */
 }
 
 .lmc-bg-color-2 {
-    background:rgba(0, 0, 0, 0.9);
+    background: white
     /* background: rgba(51, 80, 133, 0.92); */
 
 }
 
 .lmc-bg-color-3 {
-    background:rgba(0, 0, 0, 0.9);
-    /* background: rgba(51, 80, 133, 0.85); */
+    background: white
 
 }
 
-.txt-shadow {
-    text-shadow: 2px 2px 6px #000000;
+.bg-whitesmoke {
+    background-color: whitesmoke;
 }
 
 .lmc-bg-wave {
