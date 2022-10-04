@@ -202,6 +202,7 @@ a:active {
 
 :root {
     --lmc-color: #335085;
+    --lmc-accent: #a78649;
 }
 
 body {
@@ -212,8 +213,26 @@ body {
     color: var(--lmc-color);
 }
 
-.lmc-bg-solid {
+.lmc-accent-color {
+    color: var(--lmc-accent);
+}
+
+.lmc-bg-color-1 {
     background-color: var(--lmc-color);
+}
+
+.lmc-bg-color-2 {
+    background: rgba(51, 80, 133, 0.92);
+
+}
+
+.lmc-bg-color-3 {
+    background: rgba(51, 80, 133, 0.85);
+
+}
+
+.txt-shadow {
+    text-shadow: 2px 2px 6px #000000;
 }
 
 .lmc-bg-wave {
@@ -225,7 +244,7 @@ body {
     background-blend-mode: multiply;
 }
 
-.lmc-foreground {
+.lmc-fg-color {
     color: white;
 }
 
