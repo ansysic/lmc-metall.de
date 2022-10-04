@@ -200,33 +200,33 @@ a:active {
     font-style: normal;
 }
 
+:root {
+    --lmc-color: #335085;
+}
+
 body {
     font-family: 'Inter';
-    /* background-color: whitesmoke; */
-}
-
-.font-inter {
-    font-weight: bold;
-}
-
-.lmc-background-gradient {
-    background: rgb(51, 80, 133);
-    background: linear-gradient(90deg, rgba(51, 80, 133, 1) 0%, rgba(216, 221, 239, 1) 94%);
-}
-
-.height-medium {
-    height: 250px;
-}
-
-.font-uppercase {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: medium;
-    color: gray;
 }
 
 .lmc-color {
-    color: #335085;
+    color: var(--lmc-color);
+}
+
+.lmc-bg-solid {
+    background-color: var(--lmc-color);
+}
+
+.lmc-bg-wave {
+    background-image: url("data:image/svg+xml,%3Csvg id='wave' style='transform:rotate(180deg); transition: 0.3s' viewBox='0 0 1440 280' version='1.1' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='sw-gradient-0' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop stop-color='rgba(255, 255, 255, 1)' offset='0%25'%3E%3C/stop%3E%3Cstop stop-color='rgba(51, 80, 133, 1)' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath style='transform:translate(0, 0px); opacity:1' fill='url(%23sw-gradient-0)' d='M0,140L48,116.7C96,93,192,47,288,32.7C384,19,480,37,576,60.7C672,84,768,112,864,116.7C960,121,1056,103,1152,79.3C1248,56,1344,28,1440,14C1536,0,1632,0,1728,42C1824,84,1920,168,2016,205.3C2112,243,2208,233,2304,228.7C2400,224,2496,224,2592,224C2688,224,2784,224,2880,196C2976,168,3072,112,3168,112C3264,112,3360,168,3456,200.7C3552,233,3648,243,3744,238C3840,233,3936,215,4032,205.3C4128,196,4224,196,4320,196C4416,196,4512,196,4608,200.7C4704,205,4800,215,4896,224C4992,233,5088,243,5184,205.3C5280,168,5376,84,5472,42C5568,0,5664,0,5760,9.3C5856,19,5952,37,6048,42C6144,47,6240,37,6336,42C6432,47,6528,65,6624,79.3C6720,93,6816,103,6864,107.3L6912,112L6912,280L6864,280C6816,280,6720,280,6624,280C6528,280,6432,280,6336,280C6240,280,6144,280,6048,280C5952,280,5856,280,5760,280C5664,280,5568,280,5472,280C5376,280,5280,280,5184,280C5088,280,4992,280,4896,280C4800,280,4704,280,4608,280C4512,280,4416,280,4320,280C4224,280,4128,280,4032,280C3936,280,3840,280,3744,280C3648,280,3552,280,3456,280C3360,280,3264,280,3168,280C3072,280,2976,280,2880,280C2784,280,2688,280,2592,280C2496,280,2400,280,2304,280C2208,280,2112,280,2016,280C1920,280,1824,280,1728,280C1632,280,1536,280,1440,280C1344,280,1248,280,1152,280C1056,280,960,280,864,280C768,280,672,280,576,280C480,280,384,280,288,280C192,280,96,280,48,280L0,280Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: var(--lmc-color);
+    background-blend-mode: multiply;
+}
+
+.lmc-foreground {
+    color: white;
 }
 
 .lmc-logo {
@@ -235,14 +235,13 @@ body {
     font-size: 2em;
 }
 
+.col-tile {
+    background-color: rgba(255,255,255,0.75);
+}
+
 .svg-background {
     background-image: linear-gradient(115deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%), url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(-10)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='0.5' stroke='hsla(259, 0%, 91%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
     background-repeat: repeat;
-    ;
-}
-
-.underl {
-    text-decoration: underline solid #335085;
 }
 
 .navbar-toggler {
@@ -257,5 +256,9 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2851, 80, 133, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
-    
+.font-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+    color: wheat
+}
