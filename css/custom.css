@@ -192,6 +192,14 @@ a:active {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Neuropolitical Rg';
+    src: url('../fonts/NeuropoliticalRg-Regular.woff2') format('woff2'),
+        url('../fonts/NeuropoliticalRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Inter';
     /* background-color: whitesmoke; */
@@ -221,12 +229,10 @@ body {
     color: #335085;
 }
 
-.blur-10 {
-    backdrop-filter: blur(10px);
-}
-
-.bg-light.opac {
-    --bs-bg-opacity: 0.1;
+.lmc-logo {
+    font-family: 'Neuropolitical Rg';
+    letter-spacing: -4px;
+    font-size: 1.6em;
 }
 
 .svg-background {
