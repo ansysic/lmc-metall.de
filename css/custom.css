@@ -259,6 +259,6 @@ body {
 .font-uppercase {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: small;
-    color: wheat
+    font-size: medium;
+    color: #ccaf7a
 }
